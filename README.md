@@ -4,3 +4,5 @@
 * Necklace
 * Bags
 * Shoes
+* Lipstick
+* Scarf
