@@ -1,7 +1,7 @@
 $(document).ready(function(){
    
 // ************************************************
-// Shopping Cart API
+// Shopping Cart 
 // ************************************************
 
 var shoppingCart = (function() {
