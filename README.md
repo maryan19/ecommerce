@@ -2,7 +2,8 @@
 ## By MARYAN M
 ### Products
 * Necklace
-* Bags
+* Bag
 * Shoes
 * Lipstick
 * Scarf
+
