@@ -10,6 +10,18 @@
     height: 60px;
   
 }
+.cart ion-icon{
+    vertical-align: bottom;
+    font-size: 20px;
+    padding-right:5px;
+}
+.cart a{
+    background-color:palevioletred
+    color:white;
+    cursor: pointer;
+    text-decoration: none;
+
+}
 
 
 .slidershow{
