@@ -3,7 +3,7 @@
     padding:0;
     box-sizing: border-box;
     font-family: 'Roboto',sans-serif ;
-    background-color: hsla(89, 43%, 51%, 0.3);
+   
 }
 
 .navbar{
@@ -44,10 +44,15 @@
     display: flex;
   }
   .card {
+
     margin-bottom: 20px;
   }
+ 
   .card-img-top {
     width: 200px;
     height: 200px;
     align-self: center;
+  }
+  .page-footer{
+    background-color: hsla(89, 43%, 51%, 0.3);
   }
