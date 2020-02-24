@@ -1,22 +1,49 @@
 $(document).ready(function(){
-function getParentWithKey(element) {
-    let parent = element.parentElement;
-  
-    while (parent && !parent.dataset.key) {
-      parent = parent.parentElement;
+    var shoppingCart = [];
+    
+    function addToCart(title, price) {
+    	var product = {};
+    	product.title = title;
+    	product.price = price;
+    	shoppingCart.push(product);
+    	displayShoppingCart();
     }
-  
-    return parent;
-  }
-  
-  $('.add-to-cart').on('click', e => {
-    const parent = getParentWithKey(e.currentTarget);
-  
-    const key = parseInt(parent.dataset.key, 10);
-    store.trigger('ITEM_ADDED', { item: key });
-  });
-  case 'ITEM_ADDED':
-  return Object.assign({}, state, {
-    cart: (new Set(state.cart)).add(data.item),
-  });
+    
+    
+    function displayShoppingCart() {
+    	var totalPrice = 0;
+    	var displayTitle = document.getElementById("displayTitle");
+    	var displayPrice = document.getElementById("displayPrice");
+    	for (var product in shoppingCart) {
+    		displayTitle.innerHTML = shoppingCart[product].title;
+    		displayPrice.innerHTML = shoppingCart[product].price;
+    	
+    	// title.createElement('div');
+    	// div.className = "itemTitle";
+    	// itemTitle = document.querySelectorAll(".itemTitle");
+    	// itemTitle.innerHTML = shoppingCart[product].title;
+    
+    	} 
+    }
+
+    var book1 = document.getElementById("book1");
+    book1.addEventListener("click", addToCart("Cracking the Coding Interview","$29.99"));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 });
