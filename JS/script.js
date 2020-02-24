@@ -5,9 +5,7 @@ $(document).ready(function(){
 // ************************************************
 
 var shoppingCart = (function() {
-    // =============================
-    // Private methods and propeties
-    // =============================
+    
     cart = [];
     
     // Constructor
