@@ -1,5 +1,5 @@
 # ECOMMERCE
-## By MARYAN
+## By MARYAN M
 ### Products
 * Necklace
 * Bags
