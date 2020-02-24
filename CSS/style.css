@@ -16,7 +16,7 @@
     padding-right:5px;
 }
 .cart a{
-    background-color:palevioletred
+    background-color:palevioletred;
     color:white;
     cursor: pointer;
     text-decoration: none;
@@ -108,23 +108,7 @@ align-items: center;
 }
 
    
-.add-cart{
-    position: absolute;
-    width:100%;
-    background-color:darkgrey;
-    transition: all 0.3s ease-in-out;
-    cursor: pointer;
-    text-align: center;
-    bottom:120px;
-}
-.image:hover .cart1,
-.image:hover .cart2,
-.image:hover .cart3 {
-    bottom: 50px;
-    opacity: 1;
-    padding: 20px;
-    text-decoration:none
-}
+
 
 .row{
    
